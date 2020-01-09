@@ -28,10 +28,10 @@ int main() {
         case 1 :
             switch (angles) {
                 case 4:
-                    process<std::tuple<Vertex<int>, Vertex<int>, Vertex<int>, Vertex<int>>>();
+                    process<std::tuple<Vertex<double>, Vertex<double>, Vertex<double>, Vertex<double>>>();
                     break;
                 case 5:
-                    process<std::tuple<Vertex<int>, Vertex<int>, Vertex<int>, Vertex<int>, Vertex<int>>>();
+                    process<std::tuple<Vertex<double>, Vertex<double>, Vertex<double>, Vertex<double>, Vertex<double>>>();
                     break;
             }
             break;
