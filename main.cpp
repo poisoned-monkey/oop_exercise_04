@@ -1,7 +1,7 @@
 #include <iostream>
 #include <tuple>
 
-#include "Vertex.h"
+#include "vertex.h"
 #include "trapeze.h"
 #include "rhombus.h"
 #include "pentagon.h"
