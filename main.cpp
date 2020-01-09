@@ -44,15 +44,15 @@ int main() {
                     std::cin >> figure;
                     switch (figure) {
                         case 1:
-                            process<Trapeze<int>>();
+                            process<Trapeze<double>>();
                             break;
                         case 2:
-                            process<Rhombus<int>>();
+                            process<Rhombus<double>>();
                             break;
                     }
                     break;
                 case 5:
-                    process<Pentagon<int>>();
+                    process<Pentagon<double>>();
                     break;
             }
             break;
